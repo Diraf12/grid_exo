@@ -1,0 +1,49 @@
+body {
+   background-color: black;
+}
+
+h1 {
+   text-align: center;
+   font-size: 80px;
+   font-family: 'Bebas Neue', cursive;
+   /* font-family: 'Fascinate', cursive;
+    font-family: 'Roboto Mono', monospace; */
+   margin: 50px 0;
+   color: white;
+}
+
+.grille {
+   max-width: 1300px;
+   width: 80%;
+   height: auto;
+   margin: 30px auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 300px);
+   justify-content: center;
+   grid-gap: 10px;
+}
+
+img {
+   width: 300px;
+   height: 200px;
+}
+
+p {
+   color: white;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+}
+
+footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  
+}
+
+
+
+
+
+
